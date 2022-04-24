@@ -1,4 +1,4 @@
-# union-station
-This is the Union Station!
-We are the team of ambitious students who are really into coding. 
-We would like to introduce you our teamwork skills in software development project. 
+# Union Station
+This is Union Station.
+We are a team of ambitious students who are really passionate about programming. 
+We would like to introduce you to our teamwork skills in a software development project.
