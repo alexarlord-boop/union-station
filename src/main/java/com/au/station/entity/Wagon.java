@@ -1,9 +1,9 @@
 package com.au.station.entity;
 
 
-import jdk.jfr.events.CertificateId;
+import javax.persistence.*;
 
-@Entiy
+@Entity
 @Table
 public class Wagon {
     @Id
