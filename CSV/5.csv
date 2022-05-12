@@ -1,0 +1,10 @@
+Number,Weight,Home_Station,Destination_Station,Netto,Category
+1,28000,Arkhangelsk,Voronezh,50000,2
+2,28000,Syktyvkar,Podolsk,50000,2
+3,25000,Syktyvkar,Podolsk,46500,3
+4,24000,Arkhangelsk,Smolensk,36000,3
+5,24000,Arkhangelsk,Oryol,35000,3
+6,24000,Syktyvkar,Podolsk,25000,3
+7,25000,Kirov,Moscow,20000,4
+8,25000,Arkhangelsk,Oryol,20000,2
+9,25000,Kirov,Moscow,18000,4
