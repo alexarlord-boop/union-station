@@ -16,4 +16,10 @@ public interface CategoryRepository {
     )
     List<Cargo> getCategoryByCargoName(@Param("name") String name);
 
+    @Query("select distinct Category.Cargo_name from com.au.station.entity.Category as Category "
+    )
+    List<String> getCargoName();
+
+
+
 }
