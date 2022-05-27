@@ -4,6 +4,7 @@ package com.au.station.addons;
 import com.au.station.dto.TrainDto;
 import com.au.station.dto.WagonDto;
 
+import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.List;
 
@@ -32,7 +33,12 @@ public class TrainFileParser {
         }
     }
 
-    public void dataToTrainDto() {
+    public TrainDto dataToTrainDto(Integer trainID, Integer[] wagonList, Integer status, LocalDateTime dateTime, Integer nextStation) {
+        return new TrainDto(
+                trainID, wagonList,
+                status = status,
+                dateTime = dateTime,
+                nextStation = nextStation);
     }
 }
 
